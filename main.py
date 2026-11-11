@@ -111,6 +111,7 @@ def programar_piezas(piezas: list, ventana: dict, config: dict) -> list:
             idx_dia += 1
             
     return programacion
+
 def generar_vista_html(programacion: list, path_salida: str = "calendario.html"):
     filas_html = ""
     for item in programacion:
